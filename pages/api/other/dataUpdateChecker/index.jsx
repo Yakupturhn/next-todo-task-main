@@ -5,7 +5,7 @@ import {
   deleteDataAll,
   deleteDataByAny,
   updateDataByAny,
-} from "../../../../services/serviceOperations/index";
+} from "/services/serviceOperations/index";
 
 const handler = async (req, res) => {
   if (req.method === "GET") {
